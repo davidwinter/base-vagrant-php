@@ -10,7 +10,7 @@ exec { 'apt-get update':
 
 include phpfpm
 
-phpfpm::nginx::vhost { 'vhost_name':
+phpfpm::nginx::vhost { 'project-name':
     server_name => 'dev.example.com',
     root        => '/vagrant/public',
 }
