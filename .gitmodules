@@ -1,0 +1,6 @@
+[submodule "private/puppet/modules/phpfpm"]
+	path = private/puppet/modules/phpfpm
+	url = git://github.com/davidwinter/puppet-phpfpm.git
+[submodule "private/puppet/modules/nginx"]
+	path = private/puppet/modules/nginx
+	url = git://github.com/davidwinter/puppet-nginx.git
