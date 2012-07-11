@@ -6,7 +6,7 @@ To get started:
 
  1. Clone this repo:
 
-     git clone git://github.com/davidwinter/base-vagrant-php.git your-project-name
+     `git clone git://github.com/davidwinter/base-vagrant-php.git your-project-name`
 
  2. Edit `site.pp` and update the `server_name` property to a local testing host that you'll use.
  3. Update `/etc/hosts` to point `192.168.33.10` to the host you added in `site.pp` in the `server_name` property.
