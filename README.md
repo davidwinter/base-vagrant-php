@@ -10,7 +10,7 @@ To get started:
 
  2. Edit `site.pp` and update the `server_name` property to a local testing host that you'll use.
  3. Update `/etc/hosts` to point `192.168.33.10` to the host you added in `site.pp` in the `server_name` property.
- 4. Run `vagrant up`.
+ 4. Change into the checked out repo, and run `vagrant up`.
  5. Visit [http://dev.example.com](http://dev.example.com) (or the host that you set) and you should see the `phpinfo()` screen.
  6. Away you go!
 
